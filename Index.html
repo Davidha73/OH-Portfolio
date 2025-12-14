@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Olivia Harries: Digital Marketing Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Sticky Navigation Header -->
+    <header id="navbar">
+      <div class="logo">O.H.</div>
+      <nav>
+        <a href="#hero">Home</a>
+        <a href="#about">About</a>
+        <a href="#expertise">Expertise</a>
+        <a href="#portfolio">Work</a>
+        <a href="#contact" class="cta-link">Connect</a>
+      </nav>
+    </header>
+
+    <!-- 1. Hero Section -->
+    <section id="hero" class="block-section hero-blue">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1>Olivia Harries: Strategy, Spark, Scale.</h1>
+          <p>
+            Digital Marketing Professional specializing in **data-driven
+            growth** and **creative campaigns**.
+          </p>
+          <a href="#portfolio" class="cta-button">See My Work 👇</a>
+        </div>
+        <div class="hero-image-placeholder">
+          <!-- Placeholder for Olivia's bright, professional photo (originally pink block) -->
+          <div class="photo-placeholder"></div>
+        </div>
+      </div>
+      <div class="social-links">
+        <a href="#" target="_blank">LinkedIn</a>
+        <a href="#" target="_blank">X / Twitter</a>
+      </div>
+    </section>
+
+    <!-- 2. About & Philosophy -->
+    <section id="about" class="block-section">
+      <div class="about-block block-yellow">
+        <h2>Who Am I?</h2>
+        <p>
+          My journey into digital marketing began after excelling in my
+          **A-Levels**, which honed my analytical skills and determination. I am
+          currently deepening this expertise while studying Digital Marketing at
+          the **Fashion Retail Academy (FRA)**. This blend of academic rigour
+          and specialist training drives my aspiration to become a successful,
+          data-driven professional who delivers measurable impact.
+        </p>
+      </div>
+      <div class="about-details">
+        <div class="details-text">
+          <h3>Core Values:</h3>
+          <ul>
+            <li>
+              💡 **Innovation:** Never settling for the status quo; constantly
+              seeking new, effective channels.
+            </li>
+            <li>
+              📈 **Transparency:** Providing clear, actionable reporting and
+              honest strategy recommendations.
+            </li>
+            <li>
+              ❤️ **Audience-First:** Creating value for the end-user to build
+              deep, lasting customer relationships.
+            </li>
+          </ul>
+        </div>
+        <div class="graphic-placeholder">
+          <!-- Abstract Growth Graphic -->
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. Core Expertise -->
+    <section id="expertise" class="expertise-section">
+      <div class="expertise-content">
+        <h2>What can I do for you?</h2>
+        <div class="expertise-grid">
+          <div class="skill-block block-pink">
+            <h3>Content Creation</h3>
+            <p>
+              Need your ideas to come to life? Let me help you create
+              outstanding content that captures attention.
+            </p>
+          </div>
+          <div class="skill-block block-teal">
+            <h3>Content Strategy</h3>
+            <p>
+              Having troubles boosting engagement? Let me outline effective
+              marketing strategies to set your brand on the right path to
+              success.
+            </p>
+          </div>
+          <div class="skill-block block-purple">
+            <h3>Social Media Management</h3>
+            <p>
+              Avoid the pressures of social media and don't fall behind, I can
+              assist in day-to-day social media management to help your business
+              stand out.
+            </p>
+          </div>
+          <div class="skill-block block-orange">
+            <h3>SEO & Email Marketing</h3>
+            <p>
+              Implementing full-stack SEO strategies (technical and content) and
+              designing personalized, automated email journeys.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Portfolio & Case Studies -->
+    <section id="portfolio" class="portfolio-section">
+      <div class="portfolio-content">
+        <h2>My Projects.</h2>
+        <div class="case-study-grid">
+          <div class="case-study-card block-bright-pink">
+            <!-- Project 1 (Gamification) -->
+            <h3>Gamification Marketing</h3>
+            <p>
+              Focus: How I produced an effective **gamification strategy** for
+              **Vivienne Westwood**.
+            </p>
+            <div class="tags">
+              <span>#LuxuryFashion</span><span>#Gamification</span
+              ><span>#InteractiveContent</span>
+            </div>
+            <a href="#" class="view-link">View Case Study →</a>
+          </div>
+
+          <div class="case-study-card block-bright-blue">
+            <!-- Project 2 (Collaboration) - UPDATED -->
+            <h3>Luxury Brand Collaboration</h3>
+            <p>
+              Focus: Successfully managed and executed the high-impact digital
+              marketing campaign for the **Kenzo x Takashi Murakami**
+              collaboration.
+            </p>
+            <div class="tags">
+              <span>#BrandPartnership</span><span>#ArtCollaboration</span
+              ><span>#DigitalPR</span>
+            </div>
+            <a href="#" class="view-link">View Case Study →</a>
+          </div>
+
+          <div class="case-study-card block-bright-green">
+            <h3>Project 3: Global Awareness</h3>
+            <p>
+              Focus: Generated 3x Brand Mentions and 40% lead growth with a
+              creative, multi-platform brand awareness campaign.
+            </p>
+            <div class="tags">
+              <span>#SocialStrategy</span><span>#HubSpot</span><span>#PR</span>
+            </div>
+            <a href="#" class="view-link">View Case Study →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. Contact & Next Steps -->
+    <section id="contact" class="block-section contact-section block-dark-navy">
+      <div class="contact-content">
+        <h2>Ready to Accelerate Your Growth?</h2>
+        <form
+          class="contact-form"
+          onsubmit="event.preventDefault(); showMessage();"
+        >
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+          <textarea
+            placeholder="Tell me about your project..."
+            required
+          ></textarea>
+          <button type="submit" class="cta-button">Send Message</button>
+        </form>
+
+        <div
+          id="message-box"
+          style="
+            display: none;
+            margin-top: 20px;
+            padding: 15px;
+            background-color: var(--color-sunny-yellow);
+            color: var(--color-dark-navy);
+            border-radius: 8px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            font-weight: 700;
+          "
+        >
+          Message Sent! I will be in touch shortly.
+        </div>
+
+        <p class="direct-contact">
+          Or connect directly:
+          <a href="mailto:oliviaharries2007@gmail.com" class="email-link"
+            >oliviaharries2007@gmail.com</a
+          >
+          |
+          <a href="mailto:40101639@stu.fra.ac.uk" class="email-link"
+            >40101639@stu.fra.ac.uk</a
+          >
+          | <a href="#" target="_blank">Download Resume (PDF)</a>
+        </p>
+      </div>
+    </section>
+
+    <!-- JavaScript for interactivity -->
+    <script src="script.js"></script>
+  </body>
+</html>
